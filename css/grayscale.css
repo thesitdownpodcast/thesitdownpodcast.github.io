@@ -6,7 +6,8 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color:lightcoral;
+  opacity: 90%;
 }
 
 #mainNav .navbar-toggler {
@@ -27,7 +28,7 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(rgb(128, 90, 90), 80%);
   outline: none;
   background-color: transparent;
 }
@@ -47,7 +48,7 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: lightcoral);
   }
   #mainNav .nav-link {
     transition: none;
@@ -58,10 +59,10 @@
     color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link:active {
-    color: white;
+    color: lightcoral;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: lightcoral;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
@@ -90,12 +91,25 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
+
+.LogoImg {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  max-width: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+
 
 .masthead h1 {
   font-family: 'Varela Round';
