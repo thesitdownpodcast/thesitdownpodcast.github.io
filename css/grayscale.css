@@ -309,3 +309,12 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+ul{
+  display: flex;
+  justify-content: center;
+}
+ul li{
+  display: inline-block;
+  background-color: grey;
+  padding: 12px; 16px;
+}
