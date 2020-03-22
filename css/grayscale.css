@@ -53,7 +53,7 @@
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: r rgba(199, 160, 133, 0.8)
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
