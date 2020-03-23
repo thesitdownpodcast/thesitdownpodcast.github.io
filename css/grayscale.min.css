@@ -160,18 +160,18 @@
     font-size: 23px;
 }
 .projects-section{
-    padding: 50px 50px;
+    padding: 100px 50px;
     color: tan;
     background-color: tan;
     font-size: 23;
 }
 .projects-section .featured-text{
-    padding: 50px 50px;
+    padding: 100px 50px;
     font-size: 23px;
 }
 @media (min-width:992px){
     .projects-section .featured-text{
-        padding:25px 50px;
+        padding:100px 50px;
         border-left:0rem; 
         border-right: 0rem solid #b88c68;
         font-size: 23;
